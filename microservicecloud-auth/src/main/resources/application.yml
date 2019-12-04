@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/auth?serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: 123456
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.llb.entity   # 所有bean别名类所在包
+  mapper-locations:
+    - classpath:mybatis/mapper/**/*.xml
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#      use-new-id-generator-mappings: true
+#    show-sql: true
+
+
+server:
+  port: 9001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-config-3344" />
+        <module name="microservicecloud-cloud-gateway-9528" />
+        <module name="microservicecloud-config-dept-client-8001" />
+        <module name="microservicecloud-api" />
+        <module name="microservicecloud-provider-dept-hystrix-8001" />
+        <module name="microservicecloud-provider-dept-8003" />
+        <module name="microservicecloud-provider-dept-8002" />
+        <module name="microservicecloud-eureka-7004" />
+        <module name="microservicecloud-cloud-gateway-client-9529" />
+        <module name="microservice-config-client-3355" />
+        <module name="microservice-config-3342" />
+        <module name="microservice-config-client-3352" />
+        <module name="microservice-config-client-3351" />
+        <module name="microservicecloud-consumer-dept-80" />
+        <module name="microservicecloud-consumer-dept-feign" />
+        <module name="microservicecloud-auth-security-test" />
+        <module name="microservicecloud-consumer-hystrix-dashboard-9001" />
+        <module name="microservicecloud-provider-dept-hystrix-turbine-8003" />
+        <module name="microservicecloud-mq-consumer-8301" />
+        <module name="microservicecloud-auth-login" />
+        <module name="microservicecloud-mq-provider-8201" />
+        <module name="microservicecloud-admin-server-6002" />
+        <module name="microservicecloud-auth" />
+        <module name="microservicecloud-admin-client-6001" />
+        <module name="microservicecloud-zuul-gateway-9527" />
+        <module name="microservice-config-3341" />
+        <module name="microservicecloud-provider-dept-8001" />
+        <module name="microservicecloud-config-eureka-client-7001" />
+        <module name="microservice-Sleuth-zipkin-2001" />
+        <module name="microservicecloud-provider-dept-hystrix-8002" />
+        <module name="microservicecloud-eureka-7003" />
+        <module name="microservicecloud-eureka-7002" />
+        <module name="microservicecloud-eureka-7001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-config-3341" target="1.8" />
+      <module name="microservice-config-3342" target="1.8" />
+      <module name="microservice-config-3344" target="1.8" />
+      <module name="microservice-config-client-3351" target="1.8" />
+      <module name="microservice-config-client-3352" target="1.8" />
+      <module name="microservice-config-client-3355" target="1.8" />
+      <module name="microservice-Sleuth-zipkin-2001" target="1.8" />
+      <module name="microservicecloud" target="1.8" />
+      <module name="microservicecloud-admin-client-6001" target="1.8" />
+      <module name="microservicecloud-admin-server-6002" target="1.8" />
+      <module name="microservicecloud-api" target="1.8" />
+      <module name="microservicecloud-auth" target="1.8" />
+      <module name="microservicecloud-auth-login" target="1.8" />
+      <module name="microservicecloud-auth-security-test" target="1.8" />
+      <module name="microservicecloud-cloud-gateway-9528" target="1.8" />
+      <module name="microservicecloud-cloud-gateway-client-9529" target="1.8" />
+      <module name="microservicecloud-config-dept-client-8001" target="1.8" />
+      <module name="microservicecloud-config-eureka-client-7001" target="1.8" />
+      <module name="microservicecloud-consumer-dept-80" target="1.8" />
+      <module name="microservicecloud-consumer-dept-feign" target="1.8" />
+      <module name="microservicecloud-consumer-hystrix-dashboard-9001" target="1.8" />
+      <module name="microservicecloud-eureka-7001" target="1.8" />
+      <module name="microservicecloud-eureka-7002" target="1.8" />
+      <module name="microservicecloud-eureka-7003" target="1.8" />
+      <module name="microservicecloud-eureka-7004" target="1.8" />
+      <module name="microservicecloud-mq-consumer-8301" target="1.8" />
+      <module name="microservicecloud-mq-provider-8201" target="1.8" />
+      <module name="microservicecloud-provider-dept-8001" target="1.8" />
+      <module name="microservicecloud-provider-dept-8002" target="1.8" />
+      <module name="microservicecloud-provider-dept-8003" target="1.8" />
+      <module name="microservicecloud-provider-dept-hystrix-8001" target="1.8" />
+      <module name="microservicecloud-provider-dept-hystrix-8002" target="1.8" />
+      <module name="microservicecloud-provider-dept-hystrix-turbine-8003" target="1.8" />
+      <module name="microservicecloud-zuul-gateway-9527" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

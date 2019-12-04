@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.llb.dao.UserDao">
+
+	<select id="findByUsername" resultType="com.llb.entity.User"
+		parameterType="String">
+		select user0_.id as id, user0_.password as password,
+		user0_.username as username from user user0_ where
+		user0_.username=#{username};
+	</select>
+
+	<select id="listByUserId" resultType="com.llb.entity.Role"
+		parameterType="Long">
+		SELECT
+		role.id as id,role.`name`as name
+		FROM
+		user_role ,user,role where
+		user.id=user_role.user_id and role.id=user_role.role_id
+		and user_role.user_id=#{id}
+
+	</select>
+	<!-- <insert id="save" parameterType="com.llb.entity.User"> -->
+	<!-- insert into user (password, username) values (#{password}, #{username}) -->
+	<!-- </insert> -->
+
+	<!-- <update id="updateUser" parameterType="com.llb.entity.User"> -->
+	<!-- update user set password = #{password} where username=#{username} -->
+	<!-- </update> -->
+
+</mapper>
+ 
