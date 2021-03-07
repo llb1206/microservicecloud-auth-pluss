@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.cloud.netflix.turbine.EnableTurbine;
+
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableHystrix
@@ -16,15 +17,13 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 @EnableTurbine
 @EnableEurekaClient
 
-public class DeptProvider8003_Hystrix_App
-{
-	/**
-	 * 开启 ----特拜恩 Turbine
-	 * 
-	 * 打开:http://localhost:8001/hystrix,输入监控流http://localhost:8003/turbine.stream
-	 */
-	public static void main(String[] args)
-	{
-		SpringApplication.run(DeptProvider8003_Hystrix_App.class, args);
-	}
+public class DeptProvider8006_Hystrix_App {
+    /**
+     * 开启 ----特拜恩 Turbine
+     * 都是 特拜恩 服务端口  8006
+     * 打开:http://localhost:8006/hystrix,输入监控流http://localhost:8006/turbine.stream
+     */
+    public static void main(String[] args) {
+        SpringApplication.run(DeptProvider8006_Hystrix_App.class, args);
+    }
 }

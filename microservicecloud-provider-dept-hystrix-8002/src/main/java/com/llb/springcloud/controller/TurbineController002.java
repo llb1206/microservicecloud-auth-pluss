@@ -12,7 +12,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 
 @RestController
-public class DeptController {
+public class TurbineController002 {
 
 	@Autowired
 	  private DeptService service = null;
