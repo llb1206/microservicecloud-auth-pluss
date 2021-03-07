@@ -27,6 +27,7 @@ public class OAuth2Config extends AuthorizationServerConfigurerAdapter {
                 .scopes("service")
                 .autoApprove(true)
                 .authorizedGrantTypes("implicit","refresh_token", "password", "authorization_code")
+                //.redirectUris("http://localhost:8882/login","http://localhost:8883/login")    // 认证成功重定向URL
                 .accessTokenValiditySeconds(12*300);//5min过期
     }
 

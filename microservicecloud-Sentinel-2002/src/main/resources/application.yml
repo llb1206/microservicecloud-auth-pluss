@@ -1,0 +1,13 @@
+server:
+  port: 2002
+spring:
+  application:
+    name: Sentinel-server
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:7777
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/

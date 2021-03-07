@@ -109,9 +109,9 @@
         <module>microservicecloud-provider-dept-8002</module>
         <module>microservicecloud-provider-dept-8003</module>
         <module>microservicecloud-consumer-dept-feign</module>
-        <module>microservicecloud-provider-dept-hystrix-8001</module>
-        <module>microservicecloud-consumer-hystrix-dashboard-9001</module>
-        <module>microservicecloud-zuul-gateway-9527</module>
+        <module>microservicecloud-hystrix-provider-dept-8001</module>
+        <module>microservicecloud-hystrix-consumer-dashboard-9001</module>
+        <module>microservicecloud-gateway-zuul-9527</module>
         <module>microservicecloud-config-3344</module>
         <module>microservicecloud-config-client-3355</module>
         <module>microservicecloud-config-eureka-client-7001</module>
@@ -121,10 +121,10 @@
         <module>microservicecloud-eureka-7004</module>
         <module>microservicecloud-config-cluster-3342</module>
         <module>microservicecloud-config-client-3352</module>
-        <module>microservicecloud-cloud-gateway-9528</module>
-        <module>microservicecloud-provider-dept-hystrix-8002</module>
-        <module>microservicecloud-provider-dept-hystrix-turbine-8006</module>
-        <module>microservicecloud-cloud-gateway-client-9529</module>
+        <module>microservicecloud-gateway-9528</module>
+        <module>microservicecloud-hystrix-provider-dept-8002</module>
+        <module>microservicecloud-hystrix-provider-turbine-8006</module>
+        <module>microservicecloud-gateway-client-9529</module>
         <module>microservicecloud-mq-provider-8201</module>
         <module>microservicecloud-mq-consumer-8301</module>
         <module>microservicecloud-Sleuth-zipkin-2001</module>
@@ -133,6 +133,7 @@
         <module>microservicecloud-auth</module>
         <module>microservicecloud-auth-login</module>
         <module>microservicecloud-auth-security-test</module>
+        <module>microservicecloud-Sentinel-2002</module>
     </modules>
 </project>
 

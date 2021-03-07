@@ -26,8 +26,7 @@ public class DeptClientServiceFallbackFactory implements FallbackFactory<DeptCli
             }
 
             public Dept get(long id) {
-                return new Dept().setDeptno(id).setDname("该ID：" + id + "没有没有对应的信息,Consumer客户端提供的降级信息,此刻服务Provider已经关闭")
-                        .setDb_source("no this database in MySQL");
+                return new Dept().setDeptno(id).setDname("没有应答,无服务相应，开启熔断降级");
             }
 
             @Override
