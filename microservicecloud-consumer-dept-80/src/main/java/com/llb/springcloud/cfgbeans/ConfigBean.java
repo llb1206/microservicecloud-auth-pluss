@@ -1,5 +1,6 @@
 package com.llb.springcloud.cfgbeans;
 
+import com.netflix.loadbalancer.RoundRobinRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,13 +16,14 @@ public class ConfigBean {
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	}
-	
-	
-	@Bean
-	public IRule myRule() {
-		//return new RoundRobinRule();//这是轮询
-		//return new RandomRule();//这才是随机啊
-		return new RetryRule();//重置  防止宕机   瑞踹算法
-	}
 
+	/**
+	 * 在启动类里面........
+	 */
+//	@Bean
+//	public IRule myRule() {
+//		//return new RoundRobinRule();//这是轮询
+//		//return new RandomRule();//这才是随机啊
+//		return new RetryRule();//重置  防止宕机   瑞踹算法
+//	}
 }

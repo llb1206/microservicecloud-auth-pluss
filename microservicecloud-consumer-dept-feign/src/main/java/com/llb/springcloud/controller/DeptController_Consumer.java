@@ -14,28 +14,25 @@ import com.llb.springcloud.service.DeptClientService;
 
 @RestController
 public class DeptController_Consumer {
-	
-	@Autowired
-	private DeptClientService service;
-	
 
-	  @RequestMapping(value = "/consumer/dept/get/{id}")
-	  public Dept get(@PathVariable("id") Long id,HttpServletRequest res)
-	  {
-		  System.out.println(res.getHeader("asd")+"*-*-*-*-");
-	   return this.service.get(id);
-	  }
-	 
-	  @RequestMapping(value = "/consumer/dept/list")
-	  public List<Dept> list()
-	  {
-	   return this.service.list();
-	  }
-	 
-	  @RequestMapping(value = "/consumer/dept/add")
-	  public Object add(Dept dept)
-	  {
-	   return this.service.add(dept);
-	  }
-	}
+    @Autowired
+    private DeptClientService service;
+
+
+    @RequestMapping(value = "/consumer/dept/get/{id}")
+    public Dept get(@PathVariable("id") Long id, HttpServletRequest res) {
+        System.out.println(res.getHeader("asd") + "*-*-*-*-");
+        return this.service.get(id);
+    }
+
+    @RequestMapping(value = "/consumer/dept/list")
+    public List<Dept> list() {
+        return this.service.list();
+    }
+
+    @RequestMapping(value = "/consumer/dept/add")
+    public Object add(Dept dept) {
+        return this.service.add(dept);
+    }
+}
 
